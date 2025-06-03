@@ -10,7 +10,7 @@ import com.ecommerce.project.payload.ContactDTO;
 import com.ecommerce.project.service.ContactService;
 
 @RestController
-@RequestMapping("/api/contact")
+@RequestMapping("/api/public/contact")
 public class ContactController {
 
     @Autowired
